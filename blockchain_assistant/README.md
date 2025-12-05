@@ -96,10 +96,9 @@ Get your API key: [Google AI Studio](https://aistudio.google.com/apikey)
 
 ```
 blockchain-buddy-api/
-├── api.py              # FastAPI application
-├── agent.py            # ADK agent (optional)
+├── app.py              # FastAPI application (Vercel entry point)
+├── pyproject.toml      # Python project config
 ├── requirements.txt    # Python dependencies
-├── vercel.json         # Vercel configuration
 ├── .env.example        # Example environment file
 └── README.md           # This file
 ```
